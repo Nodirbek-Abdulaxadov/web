@@ -27,15 +27,20 @@ else {
 //     console.log(i)
 // }
 
-function calculate() {
-    var n1 = Number(document.getElementById('number1').value);
-    var n2 = Number(document.getElementById('number2').value);
+// function calculate() {
+//     var n1 = Number(document.getElementById('number1').value);
+//     var n2 = Number(document.getElementById('number2').value);
 
-    var h1 = document.getElementById('res');
-    h1.innerText = 'Natija: ' + Sum(n1, n2)
+//     var h1 = document.getElementById('res');
+//     h1.innerText = 'Natija: ' + Sum(n1, n2)
+// }
+
+// function Sum(a, b) {
+//     return a + b;
+// }
+
+
+var KG = Number(prompt('enter number'));
+for (var i = 0.1; i <= 1; i += 0.1) {
+   console.log(KG * i);
 }
-
-function Sum(a, b) {
-    return a + b;
-}
-
